@@ -9,10 +9,11 @@
 }
 
 .wraaper-text {
+  display: flex;
   justify-content: space-around;
   margin-top: 250px;
   color: white;
-  display: flex;
+  flex-direction: column;
 }
 
 .avatar {
@@ -36,10 +37,6 @@
 
 .user-story {
   width: 500px;
-}
-
-.icon {
-  text-align: center;
 }
 
 @media screen and (max-width: 600px) {
